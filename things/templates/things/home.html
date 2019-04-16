@@ -1,0 +1,6 @@
+<div id="app"></div>
+
+{% load render_bundle from webpack_loader %}
+{% render_bundle 'manifest' %}
+{% render_bundle 'vendor' %}
+{% render_bundle 'app' %}
