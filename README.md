@@ -9,7 +9,7 @@ mkdir django-webpack
 cd django-webpack
 
 pipenv install django django-webpack-loader
-pipenv run django-admin startproject django-webpack .
+pipenv run django-admin startproject django_webpack .
 pipenv run python manage.py startapp things
 
 npm install -g vue-cli
